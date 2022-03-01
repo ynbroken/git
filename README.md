@@ -5,14 +5,17 @@ include <math.h>
 
 main()
 {
-  float x, y;
+  int x, y;
   
   printf("Solve the equation y=x-10/x*10\n");
   printf("Enter x value\n");
-  scanf("%f", &x);
+  scanf("%d &x);
   
-  y = x - 10 / x * 10;
-  printf("Result y = %f", y);
+  y=x-10/x*10;
+  printf("Result y = %d, y);
+  
+  y=y/2;
+  printf("New result y = %d, y);
   
   system("pause");
 }
